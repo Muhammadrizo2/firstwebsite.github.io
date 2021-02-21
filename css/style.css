@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(0, 0, 0, 0.938);
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+	background-color: transparent;
+	position: relative;
+	z-index: 4;
+}
+
+.nav-link {
+	font-size: 16px;
+}
+
+main {
+	position: absolute;
+	top: 0;
+	z-index: 0;
+}
+
+.site-wrapper {
+	height: 640px;
+}
+
+.card, .list-group-item {
+	background-color: rgb(0, 0, 0, 0.712);
+	color: gray;
+}
+
+.parallax {
+	background-image: url("../img/dark-souls-2-warrior-armor.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+}
